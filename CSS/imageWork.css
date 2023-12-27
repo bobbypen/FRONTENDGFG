@@ -1,0 +1,24 @@
+
+img{
+    /* object-fit: cover; */
+    width: 100%;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+
+.image{
+    background-image: url(https://cdn.pixabay.com/photo/2023/11/29/11/55/pine-hills-8419433_1280.jpg);
+     /* The image used */
+  /* background-image: url("img_girl.jpg"); */
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

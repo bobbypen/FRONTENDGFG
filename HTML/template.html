@@ -1,0 +1,36 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <template id="temp">
+
+            <h1>Booby yadav</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam facere, debitis similique adipisci suscipit iusto cumque odio aspernatur harum iure.</p>
+        </template>
+
+    </body>
+<Script>
+
+    let data = {
+        title : "Bobby",
+        des : "Lorem5"
+    }
+
+        const temp = document.getElementById("temp");
+        const content = temp.content.cloneNode(true);
+        content.querySelector("h1").innerHTML=data.title;
+        // content.querySelector("h2").innerHtml=data.title;
+
+
+        document.body.appendChild(content);
+
+</Script>
+
+
+
+    </html>

@@ -1,0 +1,158 @@
+*{
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+box-sizing: border-box;
+background-color: #fffff0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* box-sizing: border-box; */
+    
+}
+
+ul{
+    /* list-style: none; */
+    display: flex;
+    gap: 25px;
+
+}
+
+ul li{
+
+    font-weight: 500;
+    
+
+    
+
+}
+
+ul li a{
+
+    text-decoration: none;
+    color: #000;
+    
+
+    
+
+}
+
+.logo{
+    font-weight: 800;
+}
+
+input{
+    padding: 8px;
+}
+
+button{
+    background-color: #8ACDD7;
+    border: 1px solid white;
+    /* color: white; */
+    /* padding: 10px; */
+    cursor: pointer;
+    padding: 8px;
+}
+.navbar-menu-btn{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.hero-section{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 8%;
+}
+
+
+h1{
+
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.hero-section-left-h{ 
+    color: #a2d2ff;
+}
+
+
+.hero-section-left p{
+
+    font-size: 35px;
+    margin-top: 30px;
+
+}
+
+.hero-section-left-p{
+    
+    color: #8338ec;
+    font-weight: 600;
+}
+
+.hero-section-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    align-items: center;
+    justify-content: center
+
+}
+
+.hero-section-right-btn{
+display: flex;
+flex-direction: row;
+margin-top: 10px;
+border-radius: 10%;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+
+.footer ul{
+gap: 35px;
+}
+
+
+.footer p{
+    font-size: 15px;
+    font-weight: 600;
+}
